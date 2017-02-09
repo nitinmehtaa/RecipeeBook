@@ -10,6 +10,7 @@
 
 @interface ViewController : UIViewController<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) IBOutlet UITableView *tableView;
+@property (nonatomic,strong) UICollectionViewController *categories;
 
 @end
 

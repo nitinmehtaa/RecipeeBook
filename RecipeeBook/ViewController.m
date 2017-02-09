@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "RecipeDetailViewController.h"
 #import "Recipe.h"
+#import "CategoriesCollectionViewController.h"
 
 @interface ViewController ()
 
@@ -21,9 +22,8 @@ NSArray *recipes;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+   
     
-   // recipes = [NSArray arrayWithObjects:recipe1, recipe2, recipe3, recipe4, recipe5, recipe6, recipe7, recipe8, recipe9, recipe10, recipe11, recipe12, recipe13, recipe14, recipe15, recipe16, nil];
     
     Recipe *recipe1 = [Recipe new];
     recipe1.name = @"Egg Benedict";
@@ -121,21 +121,20 @@ NSArray *recipes;
     recipe16.imageFile = @"ham_and_cheese_panini.jpg";
     recipe16.ingredients = [NSArray arrayWithObjects:@"2 tablespoons unsalted butter", @"4 cups thinly sliced shallots", @"2 teaspoons fresh thyme", @"1/4 cup grainy Dijon mustard", @"8 slices rustic white bread", @"8 slices Gruyere cheese", @"8 ounces sliced cooked ham", nil];
 recipes = [NSArray arrayWithObjects:recipe1, recipe2, recipe3, recipe4, recipe5, recipe6, recipe7, recipe8, recipe9, recipe10, recipe11, recipe12, recipe13, recipe14, recipe15, recipe16, nil];
-    
-    
+        
 }
 
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 
--(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-
+{
     [tableView selectRowAtIndexPath:indexPath animated:YES scrollPosition:UITableViewScrollPositionNone];
     NSLog(@"row selecter %d", (int)indexPath.row);
-//    UIStoryboard * main = [UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]];
-//    RecipeDetailViewController *detail = [main instantiateViewControllerWithIdentifier:@"RecipeDetailViewController"];
-//    [detail setRecipe:[recipes objectAtIndex:indexPath.row]];
-//    [self.navigationController pushViewController:detail animated:YES];
-    [self performSegueWithIdentifier:@"ShowRecipeDetail" sender:self];
-    }
+    UIStoryboard * main = [UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]];
+    RecipeDetailViewController *detail = [main instantiateViewControllerWithIdentifier:@"RecipeDetailViewController"];
+    [detail setRecipe:[recipes objectAtIndex:indexPath.row]];
+    [self.navigationController pushViewController:detail animated:YES];
+
+}
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 
@@ -156,18 +155,6 @@ static NSString *simpleTableIdentifier = @"SimpleTableCell";
     Recipe *recipe = [recipes objectAtIndex:indexPath.row];
     cell.textLabel.text = recipe.name;
     return cell;
-}
-
--(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    if ([segue.identifier isEqualToString:@"ShowRecipeDetail"]){
-        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-        RecipeDetailViewController *destViewController = segue.destinationViewController;
-        
-        destViewController.recipe = [recipes objectAtIndex:indexPath.row];
-        destViewController.hidesBottomBarWhenPushed = YES;
-        
-    }
 }
 
 @end
