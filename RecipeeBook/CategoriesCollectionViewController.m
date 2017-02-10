@@ -26,6 +26,7 @@ static NSString * const reuseIdentifier = @"Cell";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
    categories = [NSArray arrayWithObjects:@"appetizer.jpg", @"breakfast.jpg",@"maincourse.jpg",@"dessert.jpg",@"beverages.jpg", nil];
     [self setNeedsStatusBarAppearanceUpdate];
     [self.navigationController.navigationBar setBarTintColor:[UIColor redColor]];
@@ -49,28 +50,30 @@ static NSString * const reuseIdentifier = @"Cell";
     categoryImageView.image = [UIImage imageNamed:[categoriesPhotos objectAtIndex:indexPath.row]];
     [self.view addSubview:categoryImageView];
     cell.backgroundColor=[UIColor colorWithPatternImage:[UIImage imageNamed:[categoriesPhotos objectAtIndex:indexPath.row]]];
+    cell.layer.cornerRadius = 7;
+    self.collectionView.contentInset = UIEdgeInsetsZero;
+    self.collectionView.scrollIndicatorInsets = UIEdgeInsetsZero;
     return cell;
+    
 }
 
+//Spacing between cell <start>
+
+- (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout minimumLineSpacingForSectionAtIndex:(NSInteger)section {
+    return 1.2;
+}
+
+//Spacing between cell <end>
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 
-
 {
-   [collectionView selectItemAtIndexPath:indexPath animated:YES scrollPosition:UICollectionViewScrollPositionNone];
+    [collectionView selectItemAtIndexPath:indexPath animated:YES scrollPosition:UICollectionViewScrollPositionNone];
     NSLog(@"row selecter %d", (int)indexPath.row);
     UIStoryboard * main = [UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]];
     ViewController *listPage = [main instantiateViewControllerWithIdentifier:@"ViewController"];
     [listPage setCategories:[categories objectAtIndex:indexPath.row]];
     [self.navigationController pushViewController:listPage animated:YES];
-
-}
-
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 

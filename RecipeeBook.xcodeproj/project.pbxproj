@@ -34,11 +34,12 @@
 		1831AD471E45C6D8008D7B25 /* white_chocolate_donut.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1831AD361E45C6D8008D7B25 /* white_chocolate_donut.jpg */; };
 		1831AD851E49F4B9008D7B25 /* CategoriesCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1831AD811E49F4B9008D7B25 /* CategoriesCollectionViewController.m */; };
 		1831AD861E49F4B9008D7B25 /* CategoriesCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1831AD831E49F4B9008D7B25 /* CategoriesCollectionViewCell.m */; };
-		1831AD8C1E4B37E8008D7B25 /* appetizer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1831AD871E4B37E7008D7B25 /* appetizer.jpg */; };
-		1831AD8D1E4B37E8008D7B25 /* beverages.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1831AD881E4B37E7008D7B25 /* beverages.jpg */; };
-		1831AD8E1E4B37E8008D7B25 /* breakfast.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1831AD891E4B37E7008D7B25 /* breakfast.jpg */; };
-		1831AD8F1E4B37E8008D7B25 /* dessert.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1831AD8A1E4B37E7008D7B25 /* dessert.jpg */; };
-		1831AD901E4B37E8008D7B25 /* maincourse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1831AD8B1E4B37E7008D7B25 /* maincourse.jpg */; };
+		1831AD931E4CB937008D7B25 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1831AD921E4CB937008D7B25 /* QuartzCore.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		1831AD991E4D8F40008D7B25 /* appetizer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1831AD941E4D8F40008D7B25 /* appetizer.jpg */; };
+		1831AD9A1E4D8F40008D7B25 /* beverages.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1831AD951E4D8F40008D7B25 /* beverages.jpg */; };
+		1831AD9B1E4D8F40008D7B25 /* breakfast.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1831AD961E4D8F40008D7B25 /* breakfast.jpg */; };
+		1831AD9C1E4D8F40008D7B25 /* dessert.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1831AD971E4D8F40008D7B25 /* dessert.jpg */; };
+		1831AD9D1E4D8F40008D7B25 /* maincourse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1831AD981E4D8F40008D7B25 /* maincourse.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,11 +78,12 @@
 		1831AD821E49F4B9008D7B25 /* CategoriesCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoriesCollectionViewController.h; sourceTree = "<group>"; };
 		1831AD831E49F4B9008D7B25 /* CategoriesCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoriesCollectionViewCell.m; sourceTree = "<group>"; };
 		1831AD841E49F4B9008D7B25 /* CategoriesCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoriesCollectionViewCell.h; sourceTree = "<group>"; };
-		1831AD871E4B37E7008D7B25 /* appetizer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = appetizer.jpg; path = ../../../appetizer.jpg; sourceTree = "<group>"; };
-		1831AD881E4B37E7008D7B25 /* beverages.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = beverages.jpg; path = ../../../beverages.jpg; sourceTree = "<group>"; };
-		1831AD891E4B37E7008D7B25 /* breakfast.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = breakfast.jpg; path = ../../../breakfast.jpg; sourceTree = "<group>"; };
-		1831AD8A1E4B37E7008D7B25 /* dessert.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dessert.jpg; path = ../../../dessert.jpg; sourceTree = "<group>"; };
-		1831AD8B1E4B37E7008D7B25 /* maincourse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = maincourse.jpg; path = ../../../maincourse.jpg; sourceTree = "<group>"; };
+		1831AD921E4CB937008D7B25 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1831AD941E4D8F40008D7B25 /* appetizer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = appetizer.jpg; sourceTree = SOURCE_ROOT; };
+		1831AD951E4D8F40008D7B25 /* beverages.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beverages.jpg; sourceTree = SOURCE_ROOT; };
+		1831AD961E4D8F40008D7B25 /* breakfast.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = breakfast.jpg; sourceTree = SOURCE_ROOT; };
+		1831AD971E4D8F40008D7B25 /* dessert.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dessert.jpg; sourceTree = SOURCE_ROOT; };
+		1831AD981E4D8F40008D7B25 /* maincourse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = maincourse.jpg; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1831AD931E4CB937008D7B25 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +103,7 @@
 			children = (
 				1831AD081E434EA2008D7B25 /* RecipeeBook */,
 				1831AD071E434EA2008D7B25 /* Products */,
+				1831AD911E4CB936008D7B25 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -136,11 +140,11 @@
 		1831AD091E434EA2008D7B25 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1831AD871E4B37E7008D7B25 /* appetizer.jpg */,
-				1831AD881E4B37E7008D7B25 /* beverages.jpg */,
-				1831AD891E4B37E7008D7B25 /* breakfast.jpg */,
-				1831AD8A1E4B37E7008D7B25 /* dessert.jpg */,
-				1831AD8B1E4B37E7008D7B25 /* maincourse.jpg */,
+				1831AD941E4D8F40008D7B25 /* appetizer.jpg */,
+				1831AD951E4D8F40008D7B25 /* beverages.jpg */,
+				1831AD961E4D8F40008D7B25 /* breakfast.jpg */,
+				1831AD971E4D8F40008D7B25 /* dessert.jpg */,
+				1831AD981E4D8F40008D7B25 /* maincourse.jpg */,
 				1831AD261E45C6D8008D7B25 /* about.jpg */,
 				1831AD271E45C6D8008D7B25 /* angry_birds_cake.jpg */,
 				1831AD281E45C6D8008D7B25 /* creme_brelee.jpg */,
@@ -163,6 +167,14 @@
 				1831AD0A1E434EA2008D7B25 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1831AD911E4CB936008D7B25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1831AD921E4CB937008D7B25 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,26 +238,26 @@
 			files = (
 				1831AD401E45C6D8008D7B25 /* instant_noodle_with_egg.jpg in Resources */,
 				1831AD3D1E45C6D8008D7B25 /* ham_and_cheese_panini.jpg in Resources */,
-				1831AD901E4B37E8008D7B25 /* maincourse.jpg in Resources */,
+				1831AD9D1E4D8F40008D7B25 /* maincourse.jpg in Resources */,
 				1831AD431E45C6D8008D7B25 /* noodle_with_bbq_pork.jpg in Resources */,
 				1831AD471E45C6D8008D7B25 /* white_chocolate_donut.jpg in Resources */,
-				1831AD8F1E4B37E8008D7B25 /* dessert.jpg in Resources */,
+				1831AD9C1E4D8F40008D7B25 /* dessert.jpg in Resources */,
 				1831AD3F1E45C6D8008D7B25 /* hamburger.jpg in Resources */,
 				1831AD451E45C6D8008D7B25 /* thai_shrimp_cake.jpg in Resources */,
 				1831AD381E45C6D8008D7B25 /* angry_birds_cake.jpg in Resources */,
 				1831AD191E434EA2008D7B25 /* LaunchScreen.storyboard in Resources */,
 				1831AD3E1E45C6D8008D7B25 /* ham_and_egg_sandwich.jpg in Resources */,
 				1831AD161E434EA2008D7B25 /* Assets.xcassets in Resources */,
-				1831AD8E1E4B37E8008D7B25 /* breakfast.jpg in Resources */,
+				1831AD9B1E4D8F40008D7B25 /* breakfast.jpg in Resources */,
 				1831AD441E45C6D8008D7B25 /* starbucks_coffee.jpg in Resources */,
 				1831AD461E45C6D8008D7B25 /* vegetable_curry.jpg in Resources */,
 				1831AD421E45C6D8008D7B25 /* mushroom_risotto.jpg in Resources */,
-				1831AD8C1E4B37E8008D7B25 /* appetizer.jpg in Resources */,
+				1831AD991E4D8F40008D7B25 /* appetizer.jpg in Resources */,
 				1831AD141E434EA2008D7B25 /* Main.storyboard in Resources */,
 				1831AD371E45C6D8008D7B25 /* about.jpg in Resources */,
 				1831AD3A1E45C6D8008D7B25 /* egg_benedict.jpg in Resources */,
 				1831AD3C1E45C6D8008D7B25 /* green_tea.jpg in Resources */,
-				1831AD8D1E4B37E8008D7B25 /* beverages.jpg in Resources */,
+				1831AD9A1E4D8F40008D7B25 /* beverages.jpg in Resources */,
 				1831AD3B1E45C6D8008D7B25 /* full_breakfast.jpg in Resources */,
 				1831AD391E45C6D8008D7B25 /* creme_brelee.jpg in Resources */,
 				1831AD411E45C6D8008D7B25 /* japanese_noodle_with_pork.jpg in Resources */,

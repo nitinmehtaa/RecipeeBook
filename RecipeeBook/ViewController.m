@@ -155,6 +155,7 @@ static NSString *simpleTableIdentifier = @"SimpleTableCell";
     Recipe *recipe = [recipes objectAtIndex:indexPath.row];
     cell.textLabel.text = recipe.name;
     return cell;
+ 
 }
 
 @end
