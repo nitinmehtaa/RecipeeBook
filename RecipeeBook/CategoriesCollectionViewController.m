@@ -18,7 +18,7 @@
 
 }
 
-@endter
+@end
 
 @implementation CategoriesCollectionViewController
 
