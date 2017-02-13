@@ -14,48 +14,58 @@
 @interface CategoriesCollectionViewController(){
     NSArray *categoriesPhotos;
     NSArray *categories;
+    NSArray *categoryName;
 
 }
 
-@end
+@endter
 
 @implementation CategoriesCollectionViewController
-
 
 static NSString * const reuseIdentifier = @"Cell";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-   categories = [NSArray arrayWithObjects:@"appetizer.jpg", @"breakfast.jpg",@"maincourse.jpg",@"dessert.jpg",@"beverages.jpg", nil];
+    categories = [NSArray arrayWithObjects:@"Appetizer", @"Breakfast",@"Main Course",@"Dessert",@"Beverages", nil];
+    
+    //categoryname on homepage
+     categoryName = [NSArray arrayWithObjects:@"appetizer 1.jpg", @"breakfast1.jpg",@"maincourse_final.jpg",@"dessert01.jpg",@"beverages1.jpg", nil];
+    
     [self setNeedsStatusBarAppearanceUpdate];
     [self.navigationController.navigationBar setBarTintColor:[UIColor redColor]];
-    categoriesPhotos = [NSArray arrayWithObjects:@"appetizer.jpg", @"breakfast.jpg",@"maincourse.jpg",@"dessert.jpg",@"beverages.jpg", nil];
+    categoriesPhotos = [NSArray arrayWithObjects:@"appetizer 1.jpg", @"breakfast1.jpg",@"maincourse_final.jpg",@"dessert01.jpg",@"beverages1.jpg", nil];
     self.navigationController.navigationBar.translucent = NO;
     self.automaticallyAdjustsScrollViewInsets = YES;
+    
 }
 
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
     return categoriesPhotos.count;
+    
+    
 }
 
 
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
     static NSString *identifier = @"recipecell";
-    UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:identifier forIndexPath:indexPath];
+    CategoriesCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:identifier forIndexPath:indexPath];
     UIImageView *categoryImageView = (UIImageView *)[cell viewWithTag:100];
     categoryImageView.image = [UIImage imageNamed:[categoriesPhotos objectAtIndex:indexPath.row]];
     [self.view addSubview:categoryImageView];
     cell.backgroundColor=[UIColor colorWithPatternImage:[UIImage imageNamed:[categoriesPhotos objectAtIndex:indexPath.row]]];
+    [cell.categoryLabel setText:[categories objectAtIndex:indexPath.row]];
     cell.layer.cornerRadius = 7;
     self.collectionView.contentInset = UIEdgeInsetsZero;
     self.collectionView.scrollIndicatorInsets = UIEdgeInsetsZero;
     return cell;
     
+
 }
+
 
 //Spacing between cell <start>
 
@@ -68,7 +78,8 @@ static NSString * const reuseIdentifier = @"Cell";
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 
 {
-    [collectionView selectItemAtIndexPath:indexPath animated:YES scrollPosition:UICollectionViewScrollPositionNone];
+    [collectionView selectItemAtIndexPath:indexPath animated:YES
+                            scrollPosition:UICollectionViewScrollPositionNone];
     NSLog(@"row selecter %d", (int)indexPath.row);
     UIStoryboard * main = [UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]];
     ViewController *listPage = [main instantiateViewControllerWithIdentifier:@"ViewController"];

@@ -12,19 +12,17 @@
 #import "CategoriesCollectionViewController.h"
 
 @interface ViewController ()
-
+@property (weak, nonatomic) IBOutlet UILabel *categoryName;
 @end
 
 @implementation ViewController
 NSArray *recipes;
+
 @synthesize tableView = _tableView;
 
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-   
-    
-    
     Recipe *recipe1 = [Recipe new];
     recipe1.name = @"Egg Benedict";
     recipe1.prepTime = @"30 min";
@@ -133,6 +131,7 @@ recipes = [NSArray arrayWithObjects:recipe1, recipe2, recipe3, recipe4, recipe5,
     RecipeDetailViewController *detail = [main instantiateViewControllerWithIdentifier:@"RecipeDetailViewController"];
     [detail setRecipe:[recipes objectAtIndex:indexPath.row]];
     [self.navigationController pushViewController:detail animated:YES];
+    
 
 }
 
@@ -155,6 +154,7 @@ static NSString *simpleTableIdentifier = @"SimpleTableCell";
     Recipe *recipe = [recipes objectAtIndex:indexPath.row];
     cell.textLabel.text = recipe.name;
     return cell;
+    
  
 }
 

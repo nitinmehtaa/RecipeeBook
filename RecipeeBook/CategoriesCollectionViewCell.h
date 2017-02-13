@@ -10,7 +10,8 @@
 
 @interface CategoriesCollectionViewCell : UICollectionViewCell
 
-
+@property(nonatomic,strong) NSArray *categoryLabelArray;
+@property (nonatomic, weak) IBOutlet UILabel *categoryLabel;
 
 
 

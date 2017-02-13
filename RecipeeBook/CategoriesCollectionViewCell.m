@@ -11,4 +11,6 @@
 @implementation CategoriesCollectionViewCell
 
 
+
+
 @end
