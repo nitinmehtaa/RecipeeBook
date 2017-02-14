@@ -47,6 +47,7 @@
 		1831ADA91E51CD1B008D7B25 /* breakfast1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1831ADA81E51CD1B008D7B25 /* breakfast1.jpg */; };
 		1831ADAB1E51CDDD008D7B25 /* beverages1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1831ADAA1E51CDDD008D7B25 /* beverages1.jpg */; };
 		1831ADAD1E51CE4E008D7B25 /* dessert01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1831ADAC1E51CE4E008D7B25 /* dessert01.jpg */; };
+		1831ADB01E520A0D008D7B25 /* macandcheese.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1831ADAF1E520A0D008D7B25 /* macandcheese.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -98,6 +99,7 @@
 		1831ADA81E51CD1B008D7B25 /* breakfast1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = breakfast1.jpg; sourceTree = SOURCE_ROOT; };
 		1831ADAA1E51CDDD008D7B25 /* beverages1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beverages1.jpg; sourceTree = SOURCE_ROOT; };
 		1831ADAC1E51CE4E008D7B25 /* dessert01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dessert01.jpg; sourceTree = SOURCE_ROOT; };
+		1831ADAF1E520A0D008D7B25 /* macandcheese.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = macandcheese.jpg; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,26 @@
 		1831AD091E434EA2008D7B25 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1831ADAE1E520958008D7B25 /* Images */,
+				1831AD0C1E434EA2008D7B25 /* AppDelegate.h */,
+				1831AD0D1E434EA2008D7B25 /* AppDelegate.m */,
+				1831AD0A1E434EA2008D7B25 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1831AD911E4CB936008D7B25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1831AD921E4CB937008D7B25 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1831ADAE1E520958008D7B25 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				1831ADAF1E520A0D008D7B25 /* macandcheese.jpg */,
 				1831ADAC1E51CE4E008D7B25 /* dessert01.jpg */,
 				1831ADAA1E51CDDD008D7B25 /* beverages1.jpg */,
 				1831ADA81E51CD1B008D7B25 /* breakfast1.jpg */,
@@ -183,19 +205,8 @@
 				1831AD341E45C6D8008D7B25 /* thai_shrimp_cake.jpg */,
 				1831AD351E45C6D8008D7B25 /* vegetable_curry.jpg */,
 				1831AD361E45C6D8008D7B25 /* white_chocolate_donut.jpg */,
-				1831AD0C1E434EA2008D7B25 /* AppDelegate.h */,
-				1831AD0D1E434EA2008D7B25 /* AppDelegate.m */,
-				1831AD0A1E434EA2008D7B25 /* main.m */,
 			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		1831AD911E4CB936008D7B25 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				1831AD921E4CB937008D7B25 /* QuartzCore.framework */,
-			);
-			name = Frameworks;
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +282,7 @@
 				1831AD451E45C6D8008D7B25 /* thai_shrimp_cake.jpg in Resources */,
 				1831AD381E45C6D8008D7B25 /* angry_birds_cake.jpg in Resources */,
 				1831AD191E434EA2008D7B25 /* LaunchScreen.storyboard in Resources */,
+				1831ADB01E520A0D008D7B25 /* macandcheese.jpg in Resources */,
 				1831AD3E1E45C6D8008D7B25 /* ham_and_egg_sandwich.jpg in Resources */,
 				1831AD161E434EA2008D7B25 /* Assets.xcassets in Resources */,
 				1831AD9F1E51BD30008D7B25 /* maincourse_final.jpg in Resources */,

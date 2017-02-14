@@ -14,5 +14,6 @@
 @synthesize prepTime;
 @synthesize imageFile;
 @synthesize ingredients;
+@synthesize instructions;
 
 @end

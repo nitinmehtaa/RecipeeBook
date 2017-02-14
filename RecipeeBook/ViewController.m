@@ -23,11 +23,20 @@ NSArray *recipes;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     Recipe *recipe1 = [Recipe new];
-    recipe1.name = @"Egg Benedict";
-    recipe1.prepTime = @"30 min";
-    recipe1.imageFile = @"egg_benedict.jpg";
-    recipe1.ingredients = [NSArray arrayWithObjects:@"2 fresh English muffins", @"4 eggs", @"4 rashers of back bacon", @"2 egg yolks", @"1 tbsp of lemon juice", @"125 g of butter", @"salt and pepper", nil];
+    recipe1.name = @"Mac and Cheese";
+    recipe1.prepTime = @"20 minutes";
+    recipe1.imageFile = @"macandcheese.jpg";
+    recipe1.ingredients = [NSArray arrayWithObjects:@"250 grams Macaroni", @"¼ cup Butter", @"¼ cup Flour/Maida", @"½ teaspoon salt", @"Pepper powder to taste", @"2 cups Milk", @"2 cups Shredded Cheddar Cheese", nil];
+    recipe1.instructions = [NSArray arrayWithObjects:@"Pour water and salt in a big pot. Bring it to a boil.",@"Add macaroni and keep stirring until its cooked. Be careful about not over-cooking (approx 7-8 minutes).",@"Melt butter in a saucepan over medium heat; stir in flour, salt, and pepper to make a smooth mixture.",@"Add milk into mixture, stir it until mixture is smooth and bubbling, about 5 minutes.",@"Next, add cheddar cheese to this and stir until cheese is melted.",@"Now, add the boiled macaroni and coat it well with the cheese-milk mixture.",nil];
+    
+    
+//    Recipe *recipe1 = [Recipe new];
+//    recipe1.name = @"Egg Benedict";
+//    recipe1.prepTime = @"30 min";
+//    recipe1.imageFile = @"egg_benedict.jpg";
+//    recipe1.ingredients = [NSArray arrayWithObjects:@"2 fresh English muffins", @"4 eggs", @"4 rashers of back bacon", @"2 egg yolks", @"1 tbsp of lemon juice", @"125 g of butter", @"salt and pepper", nil];
     
     Recipe *recipe2 = [Recipe new];
     recipe2.name = @"Mushroom Risotto";

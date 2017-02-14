@@ -14,5 +14,7 @@
 @property(nonatomic,strong) NSString *prepTime;
 @property(nonatomic,strong) NSString *imageFile;
 @property(nonatomic,strong) NSArray *ingredients;
+@property(nonatomic,strong) NSArray *instructions;
+
 
 @end
