@@ -15,6 +15,8 @@
 @property (weak, nonatomic) IBOutlet UILabel *prepTimeLabel;
 @property (weak,nonatomic) IBOutlet UITextView *instructionsTextView;
 @property (weak, nonatomic) IBOutlet UIScrollView *RecipeDetailViewControllerScroll;
+@property (weak, nonatomic) IBOutlet UILabel *instructionsLabel;
+
 
 
 @property (nonatomic,strong) Recipe *recipe;

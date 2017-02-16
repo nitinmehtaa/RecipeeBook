@@ -48,6 +48,18 @@
 		1831ADAB1E51CDDD008D7B25 /* beverages1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1831ADAA1E51CDDD008D7B25 /* beverages1.jpg */; };
 		1831ADAD1E51CE4E008D7B25 /* dessert01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1831ADAC1E51CE4E008D7B25 /* dessert01.jpg */; };
 		1831ADB01E520A0D008D7B25 /* macandcheese.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1831ADAF1E520A0D008D7B25 /* macandcheese.jpg */; };
+		1831ADB21E52F966008D7B25 /* cornpizzawithsauce.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1831ADB11E52F966008D7B25 /* cornpizzawithsauce.jpg */; };
+		1831ADB51E544F38008D7B25 /* mixedsproutscornchaat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1831ADB41E544F38008D7B25 /* mixedsproutscornchaat.jpg */; };
+		1831ADB71E545DC6008D7B25 /* tomatosevpuri.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1831ADB61E545DC6008D7B25 /* tomatosevpuri.jpg */; };
+		1831ADB91E545EC8008D7B25 /* aloomoongdalpakora.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1831ADB81E545EC8008D7B25 /* aloomoongdalpakora.jpg */; };
+		1831ADBB1E54656C008D7B25 /* khoyastuffedmatarkitikki.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1831ADBA1E54656C008D7B25 /* khoyastuffedmatarkitikki.jpg */; };
+		1831ADBD1E546CCD008D7B25 /* stuffedbreaddahivada.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1831ADBC1E546CCD008D7B25 /* stuffedbreaddahivada.jpg */; };
+		1831ADBF1E546E27008D7B25 /* carrotandmoongdalsalad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1831ADBE1E546E27008D7B25 /* carrotandmoongdalsalad.jpg */; };
+		1831ADC11E548089008D7B25 /* masalaparuppuvada.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1831ADC01E548089008D7B25 /* masalaparuppuvada.jpg */; };
+		1831ADC31E5485BB008D7B25 /* avocadopasta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1831ADC21E5485BB008D7B25 /* avocadopasta.jpg */; };
+		1831ADC51E54876D008D7B25 /* beetrootkebab.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1831ADC41E54876D008D7B25 /* beetrootkebab.jpg */; };
+		1831ADC71E548AC8008D7B25 /* vegetableclearsoup.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1831ADC61E548AC8008D7B25 /* vegetableclearsoup.jpg */; };
+		1831ADC91E5490AA008D7B25 /* honeychillipotatto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1831ADC81E5490AA008D7B25 /* honeychillipotatto.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -100,6 +112,18 @@
 		1831ADAA1E51CDDD008D7B25 /* beverages1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beverages1.jpg; sourceTree = SOURCE_ROOT; };
 		1831ADAC1E51CE4E008D7B25 /* dessert01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dessert01.jpg; sourceTree = SOURCE_ROOT; };
 		1831ADAF1E520A0D008D7B25 /* macandcheese.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = macandcheese.jpg; sourceTree = SOURCE_ROOT; };
+		1831ADB11E52F966008D7B25 /* cornpizzawithsauce.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cornpizzawithsauce.jpg; sourceTree = SOURCE_ROOT; };
+		1831ADB41E544F38008D7B25 /* mixedsproutscornchaat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mixedsproutscornchaat.jpg; sourceTree = SOURCE_ROOT; };
+		1831ADB61E545DC6008D7B25 /* tomatosevpuri.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tomatosevpuri.jpg; sourceTree = SOURCE_ROOT; };
+		1831ADB81E545EC8008D7B25 /* aloomoongdalpakora.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aloomoongdalpakora.jpg; sourceTree = SOURCE_ROOT; };
+		1831ADBA1E54656C008D7B25 /* khoyastuffedmatarkitikki.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = khoyastuffedmatarkitikki.jpg; sourceTree = SOURCE_ROOT; };
+		1831ADBC1E546CCD008D7B25 /* stuffedbreaddahivada.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stuffedbreaddahivada.jpg; sourceTree = SOURCE_ROOT; };
+		1831ADBE1E546E27008D7B25 /* carrotandmoongdalsalad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = carrotandmoongdalsalad.jpg; sourceTree = SOURCE_ROOT; };
+		1831ADC01E548089008D7B25 /* masalaparuppuvada.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = masalaparuppuvada.jpg; sourceTree = SOURCE_ROOT; };
+		1831ADC21E5485BB008D7B25 /* avocadopasta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avocadopasta.jpg; sourceTree = SOURCE_ROOT; };
+		1831ADC41E54876D008D7B25 /* beetrootkebab.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beetrootkebab.jpg; sourceTree = SOURCE_ROOT; };
+		1831ADC61E548AC8008D7B25 /* vegetableclearsoup.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vegetableclearsoup.jpg; sourceTree = SOURCE_ROOT; };
+		1831ADC81E5490AA008D7B25 /* honeychillipotatto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = honeychillipotatto.jpg; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +158,7 @@
 		1831AD081E434EA2008D7B25 /* RecipeeBook */ = {
 			isa = PBXGroup;
 			children = (
+				1831ADB31E534A02008D7B25 /* New Group */,
 				1831AD811E49F4B9008D7B25 /* CategoriesCollectionViewController.m */,
 				1831AD821E49F4B9008D7B25 /* CategoriesCollectionViewController.h */,
 				1831AD831E49F4B9008D7B25 /* CategoriesCollectionViewCell.m */,
@@ -175,6 +200,18 @@
 		1831ADAE1E520958008D7B25 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				1831ADC81E5490AA008D7B25 /* honeychillipotatto.jpg */,
+				1831ADC61E548AC8008D7B25 /* vegetableclearsoup.jpg */,
+				1831ADC41E54876D008D7B25 /* beetrootkebab.jpg */,
+				1831ADC21E5485BB008D7B25 /* avocadopasta.jpg */,
+				1831ADC01E548089008D7B25 /* masalaparuppuvada.jpg */,
+				1831ADBE1E546E27008D7B25 /* carrotandmoongdalsalad.jpg */,
+				1831ADBC1E546CCD008D7B25 /* stuffedbreaddahivada.jpg */,
+				1831ADBA1E54656C008D7B25 /* khoyastuffedmatarkitikki.jpg */,
+				1831ADB81E545EC8008D7B25 /* aloomoongdalpakora.jpg */,
+				1831ADB61E545DC6008D7B25 /* tomatosevpuri.jpg */,
+				1831ADB41E544F38008D7B25 /* mixedsproutscornchaat.jpg */,
+				1831ADB11E52F966008D7B25 /* cornpizzawithsauce.jpg */,
 				1831ADAF1E520A0D008D7B25 /* macandcheese.jpg */,
 				1831ADAC1E51CE4E008D7B25 /* dessert01.jpg */,
 				1831ADAA1E51CDDD008D7B25 /* beverages1.jpg */,
@@ -207,6 +244,13 @@
 				1831AD361E45C6D8008D7B25 /* white_chocolate_donut.jpg */,
 			);
 			name = Images;
+			sourceTree = "<group>";
+		};
+		1831ADB31E534A02008D7B25 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,25 +325,37 @@
 				1831AD3F1E45C6D8008D7B25 /* hamburger.jpg in Resources */,
 				1831AD451E45C6D8008D7B25 /* thai_shrimp_cake.jpg in Resources */,
 				1831AD381E45C6D8008D7B25 /* angry_birds_cake.jpg in Resources */,
+				1831ADB51E544F38008D7B25 /* mixedsproutscornchaat.jpg in Resources */,
 				1831AD191E434EA2008D7B25 /* LaunchScreen.storyboard in Resources */,
+				1831ADC91E5490AA008D7B25 /* honeychillipotatto.jpg in Resources */,
 				1831ADB01E520A0D008D7B25 /* macandcheese.jpg in Resources */,
 				1831AD3E1E45C6D8008D7B25 /* ham_and_egg_sandwich.jpg in Resources */,
+				1831ADC31E5485BB008D7B25 /* avocadopasta.jpg in Resources */,
+				1831ADC71E548AC8008D7B25 /* vegetableclearsoup.jpg in Resources */,
 				1831AD161E434EA2008D7B25 /* Assets.xcassets in Resources */,
 				1831AD9F1E51BD30008D7B25 /* maincourse_final.jpg in Resources */,
+				1831ADC51E54876D008D7B25 /* beetrootkebab.jpg in Resources */,
 				1831AD9B1E4D8F40008D7B25 /* breakfast.jpg in Resources */,
 				1831AD441E45C6D8008D7B25 /* starbucks_coffee.jpg in Resources */,
+				1831ADBB1E54656C008D7B25 /* khoyastuffedmatarkitikki.jpg in Resources */,
 				1831AD461E45C6D8008D7B25 /* vegetable_curry.jpg in Resources */,
 				1831AD421E45C6D8008D7B25 /* mushroom_risotto.jpg in Resources */,
 				1831AD991E4D8F40008D7B25 /* appetizer.jpg in Resources */,
+				1831ADB91E545EC8008D7B25 /* aloomoongdalpakora.jpg in Resources */,
 				1831AD141E434EA2008D7B25 /* Main.storyboard in Resources */,
 				1831ADAD1E51CE4E008D7B25 /* dessert01.jpg in Resources */,
 				1831AD371E45C6D8008D7B25 /* about.jpg in Resources */,
+				1831ADB21E52F966008D7B25 /* cornpizzawithsauce.jpg in Resources */,
+				1831ADBD1E546CCD008D7B25 /* stuffedbreaddahivada.jpg in Resources */,
 				1831AD3A1E45C6D8008D7B25 /* egg_benedict.jpg in Resources */,
+				1831ADC11E548089008D7B25 /* masalaparuppuvada.jpg in Resources */,
 				1831AD3C1E45C6D8008D7B25 /* green_tea.jpg in Resources */,
 				1831AD9A1E4D8F40008D7B25 /* beverages.jpg in Resources */,
 				1831AD3B1E45C6D8008D7B25 /* full_breakfast.jpg in Resources */,
 				1831AD391E45C6D8008D7B25 /* creme_brelee.jpg in Resources */,
 				1831AD411E45C6D8008D7B25 /* japanese_noodle_with_pork.jpg in Resources */,
+				1831ADBF1E546E27008D7B25 /* carrotandmoongdalsalad.jpg in Resources */,
+				1831ADB71E545DC6008D7B25 /* tomatosevpuri.jpg in Resources */,
 				1831ADA91E51CD1B008D7B25 /* breakfast1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
