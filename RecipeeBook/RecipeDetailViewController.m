@@ -7,6 +7,7 @@
 //
 
 #import "RecipeDetailViewController.h"
+#import <QuartzCore/QuartzCore.h>
 
 @interface RecipeDetailViewController ()
 
@@ -36,8 +37,17 @@
     }
     [self.ingredientTextView setText:ingredientText];
     
+    
+    [self.ingredientTextView.layer setBorderWidth:1.0];
+    [self.ingredientTextView.layer setBorderColor:[[UIColor grayColor] CGColor]];
+    
+    [self.instructionsTextView.layer setBorderWidth:1.0];
+    [self.instructionsTextView.layer setBorderColor:[[UIColor grayColor] CGColor]];
+    
+    
     NSMutableString *instructionText = [NSMutableString string];
     for (NSString* instruction in recipe.instructions){[instructionText appendFormat:@"%@\n", instruction];
+    
     }
     
     
