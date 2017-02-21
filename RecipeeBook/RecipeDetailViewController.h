@@ -18,7 +18,6 @@
 @property (weak, nonatomic) IBOutlet UILabel *instructionsLabel;
 
 
-
 @property (nonatomic,strong) Recipe *recipe;
 
 

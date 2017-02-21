@@ -60,6 +60,9 @@
 		1831ADC51E54876D008D7B25 /* beetrootkebab.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1831ADC41E54876D008D7B25 /* beetrootkebab.jpg */; };
 		1831ADC71E548AC8008D7B25 /* vegetableclearsoup.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1831ADC61E548AC8008D7B25 /* vegetableclearsoup.jpg */; };
 		1831ADC91E5490AA008D7B25 /* honeychillipotatto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1831ADC81E5490AA008D7B25 /* honeychillipotatto.jpg */; };
+		A64C388F1E5A425D00E6F75C /* navbar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A64C388E1E5A425D00E6F75C /* navbar.jpg */; };
+		A64C38911E5A44F300E6F75C /* rsz_navbar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A64C38901E5A44F300E6F75C /* rsz_navbar.jpg */; };
+		A64C38931E5A45C800E6F75C /* navbar2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A64C38921E5A45C800E6F75C /* navbar2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -124,6 +127,9 @@
 		1831ADC41E54876D008D7B25 /* beetrootkebab.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beetrootkebab.jpg; sourceTree = SOURCE_ROOT; };
 		1831ADC61E548AC8008D7B25 /* vegetableclearsoup.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vegetableclearsoup.jpg; sourceTree = SOURCE_ROOT; };
 		1831ADC81E5490AA008D7B25 /* honeychillipotatto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = honeychillipotatto.jpg; sourceTree = SOURCE_ROOT; };
+		A64C388E1E5A425D00E6F75C /* navbar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = navbar.jpg; path = ../../../../Downloads/navbar.jpg; sourceTree = "<group>"; };
+		A64C38901E5A44F300E6F75C /* rsz_navbar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = rsz_navbar.jpg; path = ../../../../Downloads/rsz_navbar.jpg; sourceTree = "<group>"; };
+		A64C38921E5A45C800E6F75C /* navbar2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = navbar2.jpg; path = ../../../../Downloads/navbar2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +206,9 @@
 		1831ADAE1E520958008D7B25 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				A64C38921E5A45C800E6F75C /* navbar2.jpg */,
+				A64C38901E5A44F300E6F75C /* rsz_navbar.jpg */,
+				A64C388E1E5A425D00E6F75C /* navbar.jpg */,
 				1831ADC81E5490AA008D7B25 /* honeychillipotatto.jpg */,
 				1831ADC61E548AC8008D7B25 /* vegetableclearsoup.jpg */,
 				1831ADC41E54876D008D7B25 /* beetrootkebab.jpg */,
@@ -334,12 +343,15 @@
 				1831ADC71E548AC8008D7B25 /* vegetableclearsoup.jpg in Resources */,
 				1831AD161E434EA2008D7B25 /* Assets.xcassets in Resources */,
 				1831AD9F1E51BD30008D7B25 /* maincourse_final.jpg in Resources */,
+				A64C38931E5A45C800E6F75C /* navbar2.jpg in Resources */,
 				1831ADC51E54876D008D7B25 /* beetrootkebab.jpg in Resources */,
+				A64C388F1E5A425D00E6F75C /* navbar.jpg in Resources */,
 				1831AD9B1E4D8F40008D7B25 /* breakfast.jpg in Resources */,
 				1831AD441E45C6D8008D7B25 /* starbucks_coffee.jpg in Resources */,
 				1831ADBB1E54656C008D7B25 /* khoyastuffedmatarkitikki.jpg in Resources */,
 				1831AD461E45C6D8008D7B25 /* vegetable_curry.jpg in Resources */,
 				1831AD421E45C6D8008D7B25 /* mushroom_risotto.jpg in Resources */,
+				A64C38911E5A44F300E6F75C /* rsz_navbar.jpg in Resources */,
 				1831AD991E4D8F40008D7B25 /* appetizer.jpg in Resources */,
 				1831ADB91E545EC8008D7B25 /* aloomoongdalpakora.jpg in Resources */,
 				1831AD141E434EA2008D7B25 /* Main.storyboard in Resources */,

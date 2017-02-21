@@ -28,14 +28,14 @@ NSArray *recipes;
     recipe1.name = @"Mac and Cheese";
     recipe1.prepTime = @"20 minutes";
     recipe1.imageFile = @"macandcheese.jpg";
-    recipe1.ingredients = [NSArray arrayWithObjects:@"250 grams Macaroni", @"¼ cup Butter", @"¼ cup Flour/Maida", @"½ teaspoon salt", @"Pepper powder to taste", @"2 cups Milk", @"2 cups Shredded Cheddar Cheese", nil];
+    recipe1.ingredients = [NSArray arrayWithObjects:@"\u2022 250 grams Macaroni", @"\u2022 ¼ cup Butter", @"\u2022 ¼ cup Flour/Maida", @"\u2022 ½ teaspoon salt", @"\u2022 Pepper powder to taste", @"\u2022 2 cups Milk", @"\u2022 2 cups Shredded Cheddar Cheese", nil];
     recipe1.instructions = [NSArray arrayWithObjects:
-                            @"Pour water and salt in a big pot. Bring it to a boil.",
-                            @"Add macaroni and keep stirring until its cooked. Be careful about not over-cooking (approx 7-8 minutes).",
-                            @"Melt butter in a saucepan over medium heat; stir in flour, salt, and pepper to make a smooth mixture.",
-                            @"Add milk into mixture, stir it until mixture is smooth and bubbling, about 5 minutes.",
-                            @"Next, add cheddar cheese to this and stir until cheese is melted.",
-                            @"Now, add the boiled macaroni and coat it well with the cheese-milk mixture.",
+                            @"\u2022 Pour water and salt in a big pot. Bring it to a boil.",
+                            @"\u2022 Add macaroni and keep stirring until its cooked. Be careful about not over-cooking (approx 7-8 minutes).",
+                            @"\u2022 Melt butter in a saucepan over medium heat; stir in flour, salt, and pepper to make a smooth mixture.",
+                            @"\u2022 Add milk into mixture, stir it until mixture is smooth and bubbling, about 5 minutes.",
+                            @"\u2022 Next, add cheddar cheese to this and stir until cheese is melted.",
+                            @"\u2022 Now, add the boiled macaroni and coat it well with the cheese-milk mixture.",
                             nil];
     
 
@@ -44,39 +44,39 @@ NSArray *recipes;
     recipe2.prepTime = @"10-15 minutes";
     recipe2.imageFile = @"cornpizzawithsauce.jpg";
     recipe2.ingredients = [NSArray arrayWithObjects:
-                           @"2 Pizza base",
-                           @"½ cup Sweet Corn, boiled",
-                           @"3 ½ tablespoons Oil",
-                           @"2 tablespoons Tomato Puree",
-                           @"Salt to taste",
-                           @"2 medium Green Capsicum, chopped lengthwise",
-                           @"1 medium Tomato, chopped",
-                           @"½ teaspoon White Pepper Powder",
-                           @"2 tablespoons Butter",
-                           @"Pizza Sauce",
-                           @"½ cup Mozzarella Cheese, grated",nil];
+                           @"\u2022 2 Pizza base",
+                           @"\u2022 ½ cup Sweet Corn, boiled",
+                           @"\u2022 3 ½ tablespoons Oil",
+                           @"\u2022 2 tablespoons Tomato Puree",
+                           @"\u2022 Salt to taste",
+                           @"\u2022 2 medium Green Capsicum, chopped lengthwise",
+                           @"\u2022 1 medium Tomato, chopped",
+                           @"\u2022 ½ teaspoon White Pepper Powder",
+                           @"\u2022 2 tablespoons Butter",
+                           @"\u2022 Pizza Sauce",
+                           @"\u2022 ½ cup Mozzarella Cheese, grated",nil];
     
     
-    recipe2.instructions=[NSArray arrayWithObjects:@"Add 2 tablespoons oil in a non-stick pan.",@"Pour the tomato puree and cook for 2-3 minutes. Drizzle salt and mix well. Put off the flame and keep it aside.",@"In another non-stick pan, add the remaining oil and saute the capsicum until it becomes soft.",@"Add tomatoes, sweet corn, salt and white pepper powder. Mix well and cook for a minute.",@"Remove from stove and set aside.",@"Heat a non-stick pan. Place a pizza base on it, flip it upside down until it becomes golden.",@"Flip it, and apply butter along with cooked tomato puree, pizza sauce, capsicum-corn mixture and cover with mozzarella cheese.",@"Heat it properly for 3-4 times before serving it.",@"Cut into slices and relish with chili or sweet sauce.",nil];
+    recipe2.instructions=[NSArray arrayWithObjects:@"\u2022 Add 2 tablespoons oil in a non-stick pan.",@"\u2022 Pour the tomato puree and cook for 2-3 minutes. Drizzle salt and mix well. Put off the flame and keep it aside.",@"\u2022 In another non-stick pan, add the remaining oil and saute the capsicum until it becomes soft.",@"\u2022 Add tomatoes, sweet corn, salt and white pepper powder. Mix well and cook for a minute.",@"\u2022 Remove from stove and set aside.",@"Heat a non-stick pan. Place a pizza base on it, flip it upside down until it becomes golden.",@"\u2022 Flip it, and apply butter along with cooked tomato puree, pizza sauce, capsicum-corn mixture and cover with mozzarella cheese.",@"\u2022 Heat it properly for 3-4 times before serving it.",@"\u2022 Cut into slices and relish with chili or sweet sauce.",nil];
     
     Recipe *recipe3 = [Recipe new];
     recipe3.name = @"Mixed Sprouts Corn Chaat";
     recipe3.prepTime = @"20 minutes";
     recipe3.imageFile = @"mixedsproutscornchaat.jpg";
     recipe3.ingredients = [NSArray arrayWithObjects:
-                           @"15g Mixed Sprouts, boiled",
-                           @"15g Corn, boiled",
-                           @"1 Tomato, finely chopped",
-                           @"1 Onion, finely chopped",
-                           @"1 tablespoon Coriander Chutney",
-                           @"½ teaspoon Cumin Powder",
-                           @"½ teaspoon Red Chilli/Paprika Powder",
-                           @"Salt to taste",
-                           @"A handful Pomegranate Seeds, to garnish",
-                           @"A handful freshly chopped Coriander leaves, to garnish",
-                           @"Half Lemon", nil];
+                           @"\u2022 15g Mixed Sprouts, boiled",
+                           @"\u2022 15g Corn, boiled",
+                           @"\u2022 1 Tomato, finely chopped",
+                           @"\u2022 1 Onion, finely chopped",
+                           @"\u2022 1 tablespoon Coriander Chutney",
+                           @"\u2022 ½ teaspoon Cumin Powder",
+                           @"\u2022 ½ teaspoon Red Chilli/Paprika Powder",
+                           @"\u2022 Salt to taste",
+                           @"\u2022 A handful Pomegranate Seeds, to garnish",
+                           @"\u2022 A handful freshly chopped Coriander leaves, to garnish",
+                           @"\u2022 Half Lemon", nil];
     recipe3.instructions = [NSArray arrayWithObjects:
-                            @"Wash and soak the sprouts overnight. Next day, pressure cook it for 10-15 minutes. Strain well.",@"Take a large bowl, combine all the ingredients together.",@"Finish it up by squeezing a lemon and sprinkling chopped coriander leaves.",nil];
+                            @"\u2022 Wash and soak the sprouts overnight. Next day, pressure cook it for 10-15 minutes. Strain well.",@"\u2022 Take a large bowl, combine all the ingredients together.",@"\u2022 Finish it up by squeezing a lemon and sprinkling chopped coriander leaves.",nil];
     
     
     
@@ -87,26 +87,26 @@ NSArray *recipes;
     recipe4.prepTime = @"5 minutes";
     recipe4.imageFile = @"tomatosevpuri.jpg";
     recipe4.ingredients = [NSArray arrayWithObjects:
-                           @"2 Onions, finely chopped",
-                           @"1 Carrot, grated",
-                           @"3-4 Tomatoes",
-                           @"1 Capsicum, finely chopped",
-                           @"2-3 Green Chillies, finely chopped",
-                           @"7-8 pieces Sev Puri",
-                           @"1 teaspoon Chat Masala",
-                           @"1 teaspoon Cumin Seeds Powder (cumin seeds are roasted and then grounded)",
-                           @"1 teaspoon Red Chilli Powder",
-                           @"½ teaspoon Amchur Powder",
-                           @"1 teaspoon Lemon Juice",
-                           @"2 teaspoons Sev",
-                           @"Salt as per taste",
-                           @"2 teaspoons Coriander Leaves, finely chopped", nil];
+                           @"\u2022 2 Onions, finely chopped",
+                           @"\u2022 1 Carrot, grated",
+                           @"\u2022 3-4 Tomatoes",
+                           @"\u2022 1 Capsicum, finely chopped",
+                           @"\u2022 2-3 Green Chillies, finely chopped",
+                           @"\u2022 7-8 pieces Sev Puri",
+                           @"\u2022 1 teaspoon Chat Masala",
+                           @"\u2022 1 teaspoon Cumin Seeds Powder (cumin seeds are roasted and then grounded)",
+                           @"\u2022 1 teaspoon Red Chilli Powder",
+                           @"\u2022 ½ teaspoon Amchur Powder",
+                           @"\u2022 1 teaspoon Lemon Juice",
+                           @"\u2022 2 teaspoons Sev",
+                           @"\u2022 Salt as per taste",
+                           @"\u2022 2 teaspoons Coriander Leaves, finely chopped", nil];
     recipe4.instructions = [NSArray arrayWithObjects:
-                            @"In a bowl, take chopped onions, grated carrots, chopped green chillies and capsicum. Mix all these ingredients together.",
-                            @"Sprinkle salt, red chilli powder, chat masala, cumin seed powder and amchur powder in the carrots mixture.",
-                            @"Add lemon juice to mixture.",
-                            @"Now, put three to four sev puri on a plate.",
-                            @"Top the sev puri with mixture immediately.",nil];
+                            @"\u2022 In a bowl, take chopped onions, grated carrots, chopped green chillies and capsicum. Mix all these ingredients together.",
+                            @"\u2022 Sprinkle salt, red chilli powder, chat masala, cumin seed powder and amchur powder in the carrots mixture.",
+                            @"\u2022 Add lemon juice to mixture.",
+                            @"\u2022 Now, put three to four sev puri on a plate.",
+                            @"\u2022 Top the sev puri with mixture immediately.",nil];
     
     
     Recipe *recipe5 = [Recipe new];
@@ -115,23 +115,23 @@ NSArray *recipes;
     recipe5.imageFile = @"aloomoongdalpakora.jpg";
     recipe5.ingredients = [NSArray arrayWithObjects:
                            
-                           @"1 cup Moong Dal (green gram)",
-                           @"2 Potatoes, boiled",
-                           @"1 Onion, finely chopped",
-                           @"2 Green Chillies, chopped",
-                           @"1 tablespoon Ginger, grated",
-                           @"1 teaspoon Coriander Leaves, finely chopped",
-                           @"1 teaspoon Cumin Seeds",
-                           @"A pinch of Asafoetida/Hing Powder",
-                           @"Baking Soda, a pinch",
-                           @"Salt as per taste",
-                           @"Oil for frying",nil];
+                           @"\u2022 1 cup Moong Dal (green gram)",
+                           @"\u2022 2 Potatoes, boiled",
+                           @"\u2022 1 Onion, finely chopped",
+                           @"\u2022 2 Green Chillies, chopped",
+                           @"\u2022 1 tablespoon Ginger, grated",
+                           @"\u2022 1 teaspoon Coriander Leaves, finely chopped",
+                           @"\u2022 1 teaspoon Cumin Seeds",
+                           @"\u2022 A pinch of Asafoetida/Hing Powder",
+                           @"\u2022 Baking Soda, a pinch",
+                           @"\u2022 Salt as per taste",
+                           @"\u2022 Oil for frying",nil];
     
     recipe5.instructions = [NSArray arrayWithObjects:
-                            @"Soak Moong dal for 5-6 hours or overnight. Drain the water and grind it with green chillies and asafoetida into a coarse paste. Just ensure the batter is thick.",
-                            @"Now take another bowl and mash the boiled potatoes. Combine all the other ingredients and mix well.",
-                            @"Take the prepared mixture, using your fingers, drop small amounts of it in hot oil and deep-fry the pakodas on low flame. Fry until the pakodas turn crisp and golden brown.",
-                            @"Drain the excess oil of pakodas on paper towels or absorbent paper.",nil];
+                            @"\u2022 Soak Moong dal for 5-6 hours or overnight. Drain the water and grind it with green chillies and asafoetida into a coarse paste. Just ensure the batter is thick.",
+                            @"\u2022 Now take another bowl and mash the boiled potatoes. Combine all the other ingredients and mix well.",
+                            @"\u2022 Take the prepared mixture, using your fingers, drop small amounts of it in hot oil and deep-fry the pakodas on low flame. Fry until the pakodas turn crisp and golden brown.",
+                            @"\u2022 Drain the excess oil of pakodas on paper towels or absorbent paper.",nil];
 
                             
     Recipe *recipe6 = [Recipe new];
@@ -139,32 +139,32 @@ NSArray *recipes;
     recipe6.prepTime = @"30 minutes";
     recipe6.imageFile = @"khoyastuffedmatarkitikki.jpg";
     recipe6.ingredients = [NSArray arrayWithObjects:
-                           @"For the tikki:",
-                           @"1 ½ teaspoon Desi Ghee",
-                           @"1 ½ teaspoon Jeera",
-                           @"1 pinch Hing mixed with water",
-                           @"3 teaspoons Green Chillies, chopped",
-                           @"2 tablespoons Ginger, chopped",
-                           @"1 bowl de-shelled Peas",
-                           @"¼ teaspoon Turmeric Powder",
-                           @"1 teaspoon Coriander Powder",
-                           @"2-3 Tablespoons Besan (Gram Flour)",
-                           @"Salt as per taste",
-                           @"For the filling:",
-                           @"60-70 gms Khoya",
-                           @"2 teaspoons Green Chillies, chopped",
-                           @"3 teaspoons Pista (heaped), chopped",
-                           @"1 teaspoon Coriander leaves, chopped",
-                           @"2-3 Dates, chopped",
-                           @"Oil to pan grill/shallow fry the tikkis",nil];
+                           @"\u25CF For the tikki:",
+                           @"\u2022 1 ½ teaspoon Desi Ghee",
+                           @"\u2022 1 ½ teaspoon Jeera",
+                           @"\u2022 1 pinch Hing mixed with water",
+                           @"\u2022 3 teaspoons Green Chillies, chopped",
+                           @"\u2022 2 tablespoons Ginger, chopped",
+                           @"\u2022 1 bowl de-shelled Peas",
+                           @"\u2022 ¼ teaspoon Turmeric Powder",
+                           @"\u2022 1 teaspoon Coriander Powder",
+                           @"\u2022 2-3 Tablespoons Besan (Gram Flour)",
+                           @"\u2022 Salt as per taste",
+                           @"\u25CF For the filling:",
+                           @"\u2022 60-70 gms Khoya",
+                           @"\u2022 2 teaspoons Green Chillies, chopped",
+                           @"\u2022 3 teaspoons Pista (heaped), chopped",
+                           @"\u2022 1 teaspoon Coriander leaves, chopped",
+                           @"\u2022 2-3 Dates, chopped",
+                           @"\u2022 Oil to pan grill/shallow fry the tikkis",nil];
     recipe6.instructions = [NSArray arrayWithObjects:
-                            @"In a pan add ghee, jeera, hing water, green chillies and ginger. Saute well for 30 seconds.",
-                            @"Now add green peas, turmeric powder, coriander powder and salt. Mix well and saute till the peas turn crispy and a little brown in colour.",
-                            @"Once cooked, combine all the ingredients and blend to a coarse mixture. Add besan to the mixture, to make it a little stiff.",
-                            @"In another bowl, crumble khoya with your fingers and add chillies, pista, coriander leaves and dates. Mix well.",
-                            @"Take a generous amount of pea mixture in your hand and stuff it with the khoya filling. Now shape it into a round tikki.",
-                            @"Heat oil in a non-stick pan.",
-                            @"Shallow fry these tikkis in a pan, till they turn golden-brown in colour.",nil];
+                            @"\u2022 In a pan add ghee, jeera, hing water, green chillies and ginger. Saute well for 30 seconds.",
+                            @"\u2022 Now add green peas, turmeric powder, coriander powder and salt. Mix well and saute till the peas turn crispy and a little brown in colour.",
+                            @"\u2022 Once cooked, combine all the ingredients and blend to a coarse mixture. Add besan to the mixture, to make it a little stiff.",
+                            @"\u2022 In another bowl, crumble khoya with your fingers and add chillies, pista, coriander leaves and dates. Mix well.",
+                            @"\u2022 Take a generous amount of pea mixture in your hand and stuff it with the khoya filling. Now shape it into a round tikki.",
+                            @"\u2022 Heat oil in a non-stick pan.",
+                            @"\u2022 Shallow fry these tikkis in a pan, till they turn golden-brown in colour.",nil];
     
  
     Recipe *recipe7 = [Recipe new];
@@ -172,30 +172,30 @@ NSArray *recipes;
     recipe7.prepTime = @"10 minutes";
     recipe7.imageFile = @"stuffedbreaddahivada.jpg";
     recipe7.ingredients = [NSArray arrayWithObjects:
-                           @"10 Bread Slices",
-                           @"1 cup Yogurt",
-                           @"1 teaspoon Sugar",
-                           @"3 teaspoons Green chutney",
-                           @"3 teaspoons Sweet Chutney/Saunth",
-                           @"5 Cashew Nuts/Kaju",
-                           @"1 teaspoon Raisins/Kishmish",
-                           @"1 inch Ginger piece",
-                           @"2 teaspoons Fresh Coriander Leaves",
-                           @"3/4 tsp Chili Powder",
-                           @"3/4 tsp Roasted Cumin Powder/Bhuna Jeera",
-                           @"1/2 tsp Black Salt",nil];
+                           @"\u2022 10 Bread Slices",
+                           @"\u2022 1 cup Yogurt",
+                           @"\u2022 1 teaspoon Sugar",
+                           @"\u2022 3 teaspoons Green chutney",
+                           @"\u2022 3 teaspoons Sweet Chutney/Saunth",
+                           @"\u2022 5 Cashew Nuts/Kaju",
+                           @"\u2022 1 teaspoon Raisins/Kishmish",
+                           @"\u2022 1 inch Ginger piece",
+                           @"\u2022 2 teaspoons Fresh Coriander Leaves",
+                           @"\u2022 3/4 tsp Chili Powder",
+                           @"\u2022 3/4 tsp Roasted Cumin Powder/Bhuna Jeera",
+                           @"\u2022 1/2 tsp Black Salt",nil];
     recipe7.instructions = [NSArray arrayWithObjects:
-                            @"Wash and soak cashew and raisins in 1/2 cup water and keep aside.",
-                            @"Take chilled yogurt in a bowl and whisk well.",
-                            @"Add 1/4 cup water, salt and sugar in the curd and mix well.",
-                            @"Now chop cashews and ginger into small pieces.",
-                            @"Now cut the bread into roundels (circles) with a sharp bowl, lid or any mould.",
-                            @"(Optional) Lightly toast the bread slices on a hot griddle.",
-                            @"Take a bread roundel and dip it in the curd and arrange in the serving dish.",
-                            @"Now sprinkle some chopped cashews, raisins, ginger and chopped coriander over it.",
-                            @"Cover it with another plain bread slice.",
-                            @"Drizzle yogurt over it to cover from all the sides.",
-                            @"Now drizzle sweet chutney and green chutney and sprinkle little chili powder, black salt and cumin powder.",nil];
+                            @"\u2022 Wash and soak cashew and raisins in 1/2 cup water and keep aside.",
+                            @"\u2022 Take chilled yogurt in a bowl and whisk well.",
+                            @"\u2022 Add 1/4 cup water, salt and sugar in the curd and mix well.",
+                            @"\u2022 Now chop cashews and ginger into small pieces.",
+                            @"\u2022 Now cut the bread into roundels (circles) with a sharp bowl, lid or any mould.",
+                            @"\u2022 (Optional) Lightly toast the bread slices on a hot griddle.",
+                            @"\u2022 Take a bread roundel and dip it in the curd and arrange in the serving dish.",
+                            @"\u2022 Now sprinkle some chopped cashews, raisins, ginger and chopped coriander over it.",
+                            @"\u2022 Cover it with another plain bread slice.",
+                            @"\u2022 Drizzle yogurt over it to cover from all the sides.",
+                            @"\u2022 Now drizzle sweet chutney and green chutney and sprinkle little chili powder, black salt and cumin powder.",nil];
  
     
     Recipe *recipe8 = [Recipe new];
@@ -204,26 +204,26 @@ NSArray *recipes;
     recipe8.imageFile = @"carrotandmoongdalsalad.jpg";
     recipe8.ingredients = [NSArray arrayWithObjects:
                            
-                           @"1/4 cup split Moong Dal (washed)",
-                           @"2 cups shredded Carrots (gajar)",
-                           @"2 teaspoons Oil",
-                           @"1/2 teaspoon Cumin Seeds (jeera)",
-                           @"¼ cup shredded Coconut (gola)",
-                           @"2 tablespoons Coriander leaves chopped",
-                           @"2 tablespoons Lemon Juice",
-                           @"1 tablespoon Ginger finely shredded",
-                           @"1 teaspoon Salt",
-                           @"1/4 teaspoon Black Pepper",
-                           @"1/2 teaspoon Sugar",nil];
+                           @"\u2022 1/4 cup split Moong Dal (washed)",
+                           @"\u2022 2 cups shredded Carrots (gajar)",
+                           @"\u2022 2 teaspoons Oil",
+                           @"\u2022 1/2 teaspoon Cumin Seeds (jeera)",
+                           @"\u2022 ¼ cup shredded Coconut (gola)",
+                           @"\u2022 2 tablespoons Coriander leaves chopped",
+                           @"\u2022 2 tablespoons Lemon Juice",
+                           @"\u2022 1 tablespoon Ginger finely shredded",
+                           @"\u2022 1 teaspoon Salt",
+                           @"\u2022 1/4 teaspoon Black Pepper",
+                           @"\u2022 1/2 teaspoon Sugar",nil];
     recipe8.instructions = [NSArray arrayWithObjects:
                             
-                            @"Wash moong dal properly 4-5 times before soaking it for 2-3 hours. After soaking, moong dal will increase in volume. Drain the water.",
-                            @"In a small bowl or mason jar, prepare a dressing by adding lemon juice, ginger, salt, black pepper and sugar. Set aside.",
-                            @"In a deep pan, heat oil and add cumin seeds to splutter. Add the moong dal once seeds start to crack.",
-                            @"Toss for 2-3 minutes. Avoid overcooking.",
-                            @"Put off the flame and let it cool down.",
-                            @"Add carrots, coriander leaves and coconut. Mix it properly.",
-                            @"Add dressing to the carrot-moong mix. Mix well.",nil];
+                            @"\u2022 Wash moong dal properly 4-5 times before soaking it for 2-3 hours. After soaking, moong dal will increase in volume. Drain the water.",
+                            @"\u2022 In a small bowl or mason jar, prepare a dressing by adding lemon juice, ginger, salt, black pepper and sugar. Set aside.",
+                            @"\u2022 In a deep pan, heat oil and add cumin seeds to splutter. Add the moong dal once seeds start to crack.",
+                            @"\u2022 Toss for 2-3 minutes. Avoid overcooking.",
+                            @"\u2022 Put off the flame and let it cool down.",
+                            @"\u2022 Add carrots, coriander leaves and coconut. Mix it properly.",
+                            @"\u2022 Add dressing to the carrot-moong mix. Mix well.",nil];
                             
 
     
@@ -232,23 +232,23 @@ NSArray *recipes;
     recipe9.prepTime = @"20 minutes";
     recipe9.imageFile = @"masalaparuppuvada.jpg";
     recipe9.ingredients = [NSArray arrayWithObjects:
-                           @"1 cup Chana Dal",
-                           @"1 Onion, finely chopped",
-                           @"2 Green Chillies, finely chopped",
-                           @"1 teaspoon Fennel Seeds",
-                           @"½ teaspoon Black Pepper",
-                           @"1 cup – Oil (frying)",
-                           @"4-5 Curry Leaves",
-                           @"1 tablespoon Coriander Leaves",
-                           @"Salt as per taste",nil];
+                           @"\u2022 1 cup Chana Dal",
+                           @"\u2022 1 Onion, finely chopped",
+                           @"\u2022 2 Green Chillies, finely chopped",
+                           @"\u2022 1 teaspoon Fennel Seeds",
+                           @"\u2022 ½ teaspoon Black Pepper",
+                           @"\u2022 1 cup – Oil (frying)",
+                           @"\u2022 4-5 Curry Leaves",
+                           @"\u2022 1 tablespoon Coriander Leaves",
+                           @"\u2022 Salt as per taste",nil];
                            
     
     recipe9.instructions = [NSArray arrayWithObjects:
-                            @"Soak chana dal in water for 4-5 hours",
-                            @"Strain the dal. Take 1 tablespoon of the dal and keep it aside. Grind the remaining dal into the paste. Add more water if required to get the right consistency.",
-                            @"Grind the dry ingredients namely fennel seeds, green chillies, curry leaves, onion, black pepper and salt. Add the remaining soaked chana dal in it. Mix with a spoon.",
-                            @"Add oil to a pan to deep fry. Slightly wet your palms, take a small amount of vada paste in your palm and flatten it by pressing it lightly. Once the oil is ready, gently dip the vada and deep-fry until it turns golden brown and crispy.",
-                            @"Strain the excess oil, once it is done.",nil];
+                            @"\u2022 Soak chana dal in water for 4-5 hours",
+                            @"\u2022 Strain the dal. Take 1 tablespoon of the dal and keep it aside. Grind the remaining dal into the paste. Add more water if required to get the right consistency.",
+                            @"\u2022 Grind the dry ingredients namely fennel seeds, green chillies, curry leaves, onion, black pepper and salt. Add the remaining soaked chana dal in it. Mix with a spoon.",
+                            @"\u2022 Add oil to a pan to deep fry. Slightly wet your palms, take a small amount of vada paste in your palm and flatten it by pressing it lightly. Once the oil is ready, gently dip the vada and deep-fry until it turns golden brown and crispy.",
+                            @"\u2022 Strain the excess oil, once it is done.",nil];
     
                             
                             
@@ -257,21 +257,21 @@ NSArray *recipes;
     recipe10.prepTime = @"15 minutes";
     recipe10.imageFile = @"avocadopasta.jpg";
     recipe10.ingredients = [NSArray arrayWithObjects:
-                            @"12 ounces Spaghetti",
-                            @"2 ripe Avocados, halved, seeded and peeled",
-                            @"1/2 cup fresh Basil leaves",
-                            @"2 cloves Garlic",
-                            @"2 tablespoons freshly squeezed Lemon juice",
-                            @"1/3 cup Olive oil",
-                            @"1 cup Cherry tomatoes, halved",
-                            @"1/2 cup canned Corn kernels, drained and rinsed",
-                            @"Kosher salt and freshly ground Black pepper, to taste",nil];
+                            @"\u2022 12 ounces Spaghetti",
+                            @"\u2022 2 ripe Avocados, halved, seeded and peeled",
+                            @"\u2022 1/2 cup fresh Basil leaves",
+                            @"\u2022 2 cloves Garlic",
+                            @"\u2022 2 tablespoons freshly squeezed Lemon juice",
+                            @"\u2022 1/3 cup Olive oil",
+                            @"\u2022 1 cup Cherry tomatoes, halved",
+                            @"\u2022 1/2 cup canned Corn kernels, drained and rinsed",
+                            @"\u2022 Kosher salt and freshly ground Black pepper, to taste",nil];
     
     recipe10.instructions = [NSArray arrayWithObjects:
-                            @"Boil water in a large pot and add salt to it. Add pasta, cook the pasta according to the instructions on the package and drain well.",
-                            @"Combine avocados, basil, lemon juice, garlic and salt in a food processor and make a fine paste. Add salt and pepper, to the paste for good taste.",
-                            @"Simultaneously, add the olive oil until it's mixed completely and keep it aside.",
-                            @"Take a large bowl, mix the boiled pasta, avocado sauce, cherry tomatoes and corn. Toss well without mashing the ingredients.",nil];
+                            @"\u2022 Boil water in a large pot and add salt to it. Add pasta, cook the pasta according to the instructions on the package and drain well.",
+                            @"\u2022 Combine avocados, basil, lemon juice, garlic and salt in a food processor and make a fine paste. Add salt and pepper, to the paste for good taste.",
+                            @"\u2022 Simultaneously, add the olive oil until it's mixed completely and keep it aside.",
+                            @"\u2022 Take a large bowl, mix the boiled pasta, avocado sauce, cherry tomatoes and corn. Toss well without mashing the ingredients.",nil];
     
     
     Recipe *recipe11 = [Recipe new];
@@ -279,73 +279,73 @@ NSArray *recipes;
     recipe11.prepTime = @"25 minutes";
     recipe11.imageFile = @"beetrootkebab.jpg";
     recipe11.ingredients = [NSArray arrayWithObjects:
-                            @"1 cup Beetroot, grated",
-                            @"1/2 packet Tofu",
-                            @"1/2 tablespoon Garlic paste",
-                            @"1 tablespoon Amchoor powder",
-                            @"1 tablespoon Anardana, roasted and crushed",
-                            @"Chaat masala, a pinch",
-                            @"Rock salt, to taste",
-                            @"1/4 cup chopped Cashew nuts, to stuff",
-                            @"1/2 cup crushed Oats, to coat",
-                            @"Oil, to pan fry",nil];
+                            @"\u2022 1 cup Beetroot, grated",
+                            @"\u2022 1/2 packet Tofu",
+                            @"\u2022 1/2 tablespoon Garlic paste",
+                            @"\u2022 1 tablespoon Amchoor powder",
+                            @"\u2022 1 tablespoon Anardana, roasted and crushed",
+                            @"\u2022 Chaat masala, a pinch",
+                            @"\u2022 Rock salt, to taste",
+                            @"\u2022 1/4 cup chopped Cashew nuts, to stuff",
+                            @"\u2022 1/2 cup crushed Oats, to coat",
+                            @"\u2022 Oil, to pan fry",nil];
     recipe11.instructions = [NSArray arrayWithObjects:
-                             @"Take a bowl and add grated beetroot, tofu, garlic, amchoor, chaat masala, rock salt and anardana. Mix well to combine all the ingredients.",
-                             @"Grease your palms, take small portion of the mixture and shape them into round patties. Place chopped cashews in the center and make round kebabs.",
-                             @"Roll the kebabs in crushed oat powder to evenly coat the patties from all sides.",
-                             @"Heat the oil in a flat pan and fry the kebabs, until they turn golden brown in colour from all the sides. Drain the kebabs on an absorbent paper.",nil];
+                             @"\u2022 Take a bowl and add grated beetroot, tofu, garlic, amchoor, chaat masala, rock salt and anardana. Mix well to combine all the ingredients.",
+                             @"\u2022 Grease your palms, take small portion of the mixture and shape them into round patties. Place chopped cashews in the center and make round kebabs.",
+                             @"\u2022 Roll the kebabs in crushed oat powder to evenly coat the patties from all sides.",
+                             @"\u2022 Heat the oil in a flat pan and fry the kebabs, until they turn golden brown in colour from all the sides. Drain the kebabs on an absorbent paper.",nil];
 
     Recipe *recipe12 = [Recipe new];
     recipe12.name = @"Vegetable Clear Soup";
     recipe12.prepTime = @"20 minutes";
     recipe12.imageFile = @"vegetableclearsoup.jpg";
     recipe12.ingredients = [NSArray arrayWithObjects:
-                            @"2 cups Mix vegetables (Carrots/Beans/ Cauliflower/Green Capsicum) (finely chopped)",
-                            @"2 Spring Onion (white part finely chopped)",
-                            @"2 Spring Onion (green part finely chopped)",
-                            @"1 teaspoon Ginger (julienned)",
-                            @"3 Garlic Cloves (julienned)",
-                            @"3 tablespoons Onion (finely chopped)",
-                            @"½ teaspoon Oil",
-                            @"4-5 cups Water",
-                            @"2 teaspoons Cornflour or cornstarch (add some water to make a paste)",
-                            @"Black pepper to taste",
-                            @"Salt to taste",nil];
+                            @"\u2022 2 cups Mix vegetables (Carrots/Beans/ Cauliflower/Green Capsicum) (finely chopped)",
+                            @"\u2022 2 Spring Onion (white part finely chopped)",
+                            @"\u2022 2 Spring Onion (green part finely chopped)",
+                            @"\u2022 1 teaspoon Ginger (julienned)",
+                            @"\u2022 3 Garlic Cloves (julienned)",
+                            @"\u2022 3 tablespoons Onion (finely chopped)",
+                            @"\u2022 ½ teaspoon Oil",
+                            @"\u2022 4-5 cups Water",
+                            @"\u2022 2 teaspoons Cornflour or cornstarch (add some water to make a paste)",
+                            @"\u2022 Black pepper to taste",
+                            @"\u2022 Salt to taste",nil];
     recipe12.instructions = [NSArray arrayWithObjects:
-                             @"Heat oil in a saucepan and add onion, ginger, garlic and spring onion (white part). Saute for a minute on low flame. Do not let it turn brown or soft",
-                             @"Toss in the mixed vegetable and saute for 5-6 minutes.",
-                             @"Pour water into the pan and stir until the vegetables are well cooked.",
-                             @"Next, add tastemakers like salt and black pepper along with corn flour water. Mix it well until you notice a good thick consistency.",nil];
+                             @"\u2022 Heat oil in a saucepan and add onion, ginger, garlic and spring onion (white part). Saute for a minute on low flame. Do not let it turn brown or soft",
+                             @"\u2022 Toss in the mixed vegetable and saute for 5-6 minutes.",
+                             @"\u2022 Pour water into the pan and stir until the vegetables are well cooked.",
+                             @"\u2022 Next, add tastemakers like salt and black pepper along with corn flour water. Mix it well until you notice a good thick consistency.",nil];
     
     Recipe *recipe13 = [Recipe new];
     recipe13.name = @"Honey Chilli Potato";
     recipe13.prepTime = @"30 minutes";
     recipe13.imageFile = @"honeychillipotatto.jpg";
     recipe13.ingredients = [NSArray arrayWithObjects:
-                            @"2 Potatoes (peeled and sliced)",
-                            @"3-4 tablespoons Cornflour or Maida",
-                            @"Salt to taste",
-                            @"1 teaspoon Red Chilli powder",
-                            @"Oil, for deep frying",
-                            @"For the base-",
-                            @"1 teaspoon Oil",
-                            @"2 Spring Onions (with stalk), sliced",
-                            @"1 tablespoon Garlic paste",
-                            @"1 Capsicum (sliced)",
-                            @"2 tablespoons Honey",
-                            @"1/4 teaspoon Soya sauce",
-                            @"3 teaspoon White Sesame Seeds",
-                            @"2 teaspoon Chilli sauce",
-                            @"Salt, to taste",nil];
+                            @"\u2022 2 Potatoes (peeled and sliced)",
+                            @"\u2022 3-4 tablespoons Cornflour or Maida",
+                            @"\u2022 Salt to taste",
+                            @"\u2022 1 teaspoon Red Chilli powder",
+                            @"\u2022 Oil, for deep frying",
+                            @"\u2022 For the base-",
+                            @"\u2022 1 teaspoon Oil",
+                            @"\u2022 2 Spring Onions (with stalk), sliced",
+                            @"\u2022 1 tablespoon Garlic paste",
+                            @"\u2022 1 Capsicum (sliced)",
+                            @"\u2022 2 tablespoons Honey",
+                            @"\u2022 1/4 teaspoon Soya sauce",
+                            @"\u2022 3 teaspoon White Sesame Seeds",
+                            @"\u2022 2 teaspoon Chilli sauce",
+                            @"\u2022 Salt, to taste",nil];
     recipe13.instructions = [NSArray arrayWithObjects:
-                             @"For potatoes:-",
-                             @"Assemble dry ingredients like cornflour or maida, salt and red chilli powder in a bowl.",
-                             @"Add the chopped potatoes and make sure it is coated well.",
-                             @"Put oil in a pan to deep fry the potatoes. Fry until they turn golden brown.",
-                             @"For base:-",
-                             @"In a skillet, add oil, garlic paste and spring onions. Toss on high heat for 1 minute.",
-                             @"Next up add capsicum, honey, salt, soya sauce, chilli sauce. Sautee for 2-3 minutes.",
-                             @"Finally, add the deep-fried potatoes and sesame seeds. Mix everything well.",nil];
+                             @"\u25CF For potatoes:-",
+                             @"\u2022 Assemble dry ingredients like cornflour or maida, salt and red chilli powder in a bowl.",
+                             @"\u2022 Add the chopped potatoes and make sure it is coated well.",
+                             @"\u2022 Put oil in a pan to deep fry the potatoes. Fry until they turn golden brown.",
+                             @"\u25CF For base:-",
+                             @"\u2022 In a skillet, add oil, garlic paste and spring onions. Toss on high heat for 1 minute.",
+                             @"\u2022 Next up add capsicum, honey, salt, soya sauce, chilli sauce. Sautee for 2-3 minutes.",
+                             @"\u2022 Finally, add the deep-fried potatoes and sesame seeds. Mix everything well.",nil];
     
     
     Recipe *recipe14 = [Recipe new];

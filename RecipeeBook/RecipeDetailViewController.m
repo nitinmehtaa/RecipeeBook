@@ -38,10 +38,10 @@
     [self.ingredientTextView setText:ingredientText];
     
     
-    [self.ingredientTextView.layer setBorderWidth:1.0];
+    [self.ingredientTextView.layer setBorderWidth:3.1];
     [self.ingredientTextView.layer setBorderColor:[[UIColor grayColor] CGColor]];
     
-    [self.instructionsTextView.layer setBorderWidth:1.0];
+    [self.instructionsTextView.layer setBorderWidth:3.1];
     [self.instructionsTextView.layer setBorderColor:[[UIColor grayColor] CGColor]];
     
     
@@ -49,6 +49,7 @@
     for (NSString* instruction in recipe.instructions){[instructionText appendFormat:@"%@\n", instruction];
     
     }
+   
     
     
    // Ingredients TextView Height calculation (start)
@@ -82,6 +83,7 @@
     
     
 }
+
 - (void)viewDidAppear:(BOOL)animated{
     [super viewDidAppear:YES];
     if (self.prepTimeLabel) {

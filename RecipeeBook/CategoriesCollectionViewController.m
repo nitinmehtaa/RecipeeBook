@@ -26,6 +26,12 @@ static NSString * const reuseIdentifier = @"Cell";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    //Setting top navbar background image.
+    
+//    [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"navbar2.jpg"] forBarMetrics:UIBarMetricsDefault];
+//    [[UIImage imageNamed:@"navbar2.jpg"] resizableImageWithCapInsets:UIEdgeInsetsMake(0, 0, 0, 0) resizingMode:UIImageResizingModeStretch];
+    
+    
     
     categories = [NSArray arrayWithObjects:@"Appetizer", @"Breakfast",@"Main Course",@"Dessert",@"Beverages", nil];
     
@@ -33,20 +39,18 @@ static NSString * const reuseIdentifier = @"Cell";
      categoryName = [NSArray arrayWithObjects:@"appetizer 1.jpg", @"breakfast1.jpg",@"maincourse_final.jpg",@"dessert01.jpg",@"beverages1.jpg", nil];
     
     [self setNeedsStatusBarAppearanceUpdate];
-    [self.navigationController.navigationBar setBarTintColor:[UIColor redColor]];
+  
     categoriesPhotos = [NSArray arrayWithObjects:@"appetizer 1.jpg", @"breakfast1.jpg",@"maincourse_final.jpg",@"dessert01.jpg",@"beverages1.jpg", nil];
     self.navigationController.navigationBar.translucent = NO;
     self.automaticallyAdjustsScrollViewInsets = YES;
     
 }
 
-
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
     return categoriesPhotos.count;
     
-    
-}
+    }
 
 
 
